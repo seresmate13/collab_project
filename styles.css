@@ -9,10 +9,13 @@ header{
 img {
   width: 200px;
   height: 200px;
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px black;
 }
 
 a:link{
-  color: royalblue;
+  color: brown;
   text-decoration: none;
 }
 a:hover {
@@ -30,6 +33,7 @@ a:active{
 h1 {
   font-size: 55px;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
   
 }
 h2 {
@@ -53,6 +57,8 @@ ul{
 }
 
 footer{
+  border: 3px solid black;
+  border-radius: 9px;
   font-style: italic;
   background-color: bisque;
 }
