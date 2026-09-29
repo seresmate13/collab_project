@@ -1,6 +1,9 @@
 body {
   background-color: burlywood;
-  padding: 20px;
+  padding: 0px;
+}
+header{
+  background-color: bisque;
 }
 
 img {
@@ -25,18 +28,31 @@ a:active{
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 55px;
+  text-align: center;
+  
 }
 h2 {
   font-size: 30px;
+  color: brown;
 }
 h3 {
+  font-size: 25px;
+}
+
+h5{
   font-size: 20px;
 }
+
 p {
   font-family: "Times New Roman", Times, serif;
 }
 
 ul{
   list-style-type: square;
+}
+
+footer{
+  font-style: italic;
+  background-color: bisque;
 }
