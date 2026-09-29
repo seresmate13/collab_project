@@ -17,6 +17,16 @@ a:hover {
   color: orangered;
   text-decoration: underline;
 }
+
 a:visited {
-  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
 }
