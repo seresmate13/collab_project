@@ -3,7 +3,7 @@ body {
   padding: 0px;
 }
 header{
-  background-color: bisque;
+  background-image: url(img/ochir-erdene-oyunmedeg-LmyPLbbUWhA-unsplash.jpg);
 }
 
 img {
@@ -25,8 +25,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-}
 a:active{
   color: cadetblue;
 }
@@ -48,11 +46,11 @@ h3 {
 
 h5{
   font-size: 20px;
-  line-height: 0px;
 }
 
 p {
   font-family: "Times New Roman", Times, serif;
+  float: right;
 }
 
 ul{
