@@ -2,7 +2,7 @@ body {
   background-color: burlywood;
   padding: 0px;
 }
-header{
+header {
   background-image: url(img/kibble-dog-pattern-brown-silhouette-vector-2124153.avif);
 }
 
@@ -15,7 +15,7 @@ img {
   padding: 0px;
 }
 
-a:link{
+a:link {
   color: beige;
   text-decoration: none;
 }
@@ -25,7 +25,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active{
+a:active {
   color: cadetblue;
 }
 
@@ -33,7 +33,6 @@ h1 {
   font-size: 55px;
   text-align: center;
   text-shadow: 2px 2px 2px black;
-  
 }
 h2 {
   font-size: 30px;
@@ -45,7 +44,7 @@ h3 {
   text-shadow: 1px 1px 1px black;
 }
 
-h5{
+h5 {
   font-size: 20px;
   line-height: -2em;
   text-shadow: 0.5px 0.5px 0.5px black;
@@ -56,18 +55,26 @@ p {
   line-height: -0.5em;
 }
 
-ul{
+ul {
   list-style-type: square;
 }
 
-footer{
+footer {
   border: 3px solid black;
   border-radius: 9px;
   font-style: italic;
   background-color: bisque;
 }
 
-aside{
+aside {
   border-top: 3px solid black;
 }
 
+nav {
+  gap: 20px;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
