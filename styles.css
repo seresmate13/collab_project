@@ -78,3 +78,9 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
+.jellmezo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
